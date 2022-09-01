@@ -1,0 +1,30 @@
+$border-radius: 8px;
+$beige-color: white;
+#home-page {
+  .grid-wrapper {
+    margin: 20px 200px;
+    padding: 50px 150px;
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    input {
+      color: black;
+      background-color: $beige-color;
+      min-width: 500px;
+      padding: 10px 10px;
+      outline: none;
+      border: none;
+      border-radius: $border-radius;
+    }
+  }
+}

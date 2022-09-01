@@ -1,0 +1,24 @@
+{
+  "name": "rest-mock-api",
+  "version": "1.0.0",
+  "author": "Marko Arsic",
+  "license": "MIT",
+  "description": "Mock API setup for frontend development",
+  "main": "src/server.js.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "generate-mock-data": "node schema/generateMockData"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:marsicdev/rest-mock-api.git"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "json-schema-faker": "0.4.6",
+    "json-server": "^0.16.1",
+    "json-server-auth": "^2.0.2",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {}
+}

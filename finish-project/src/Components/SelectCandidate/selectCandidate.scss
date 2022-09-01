@@ -1,0 +1,114 @@
+$border-radius: 8px;
+
+#select-candidate {
+  .step {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+  }
+
+  .flex-wrap {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    input {
+      color: black;
+      background-color: white;
+      min-width: 500px;
+      padding: 10px;
+      outline: none;
+      border: none;
+      border-radius: $border-radius;
+    }
+  }
+
+  .candidate-card {
+    width: 1000px;
+    margin: 15px auto;
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    justify-content: center;
+
+    .card {
+      background-color: white;
+      height: 350px;
+      width: 250px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.4s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 14px;
+
+      .flex {
+        // background-color: yellow;
+        // background-color: #6ccebc;
+        width: 100%;
+        height: 30%;
+        display: flex;
+        align-items: center;
+        position: relative;
+        border-radius: 8px 8px 0 0;
+
+        img {
+          width: 40%;
+          border-radius: 50%;
+          position: absolute;
+          bottom: -35px;
+          left: 30%;
+        }
+      }
+
+      .wrap-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        width: 100%;
+        margin-top: 50px;
+
+        h4 {
+          margin-top: 40px;
+          margin-bottom: 20px;
+        }
+        p {
+          margin-bottom: 10px;
+        }
+      }
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+  .btn-wrap {
+    padding: 20px 355px 20px 0;
+    display: flex;
+    justify-content: center;
+    .btn {
+      font-size: 16px;
+      display: block;
+      margin-left: auto;
+      padding: 10px 20px;
+      background-color: white;
+      border: none;
+      color: black;
+      border-radius: $border-radius;
+      margin-bottom: 20px;
+      transition: all 0.4s;
+
+      &.active {
+        background-color: #ce0505;
+        color: white;
+        cursor: pointer;
+        &:hover {
+          background-color: gray;
+        }
+      }
+    }
+  }
+}

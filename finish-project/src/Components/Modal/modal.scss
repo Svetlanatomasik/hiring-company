@@ -1,0 +1,85 @@
+#modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(211, 211, 211, 0.5);
+  backdrop-filter: blur(4px);
+
+  .wrapper {
+    background-image: url("../../images/redBcg.png");
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    width: 35%;
+    -webkit-box-shadow: 3px 40px 41px -40px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 40px 41px -40px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 40px 41px -40px rgba(0, 0, 0, 0.75);
+
+    .modal-info {
+      width: 50%;
+    }
+
+    div {
+      padding-bottom: 10px;
+      display: flex;
+      gap: 25px;
+    }
+    .icons {
+      width: 20px;
+    }
+    .icon {
+      width: 23px;
+    }
+
+    h2 {
+      padding: 20px 0;
+    }
+
+    .note-wrap {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      border: 2px solid white;
+      border-radius: 8px;
+      padding: 10px;
+      margin-top: 10px;
+      width: 90%;
+
+      .note {
+        font-family: "Poppins", sans-serif;
+        margin: 0 auto;
+        font-size: 12px;
+        word-break: break-all;
+        width: 100%;
+      }
+    }
+  }
+  button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    background-color: #ce0505;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+
+    &:hover {
+      background-color: #ed4646;
+      transition: all 0.5s;
+    }
+  }
+}

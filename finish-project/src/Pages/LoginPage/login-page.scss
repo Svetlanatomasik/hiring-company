@@ -1,0 +1,215 @@
+#login-page {
+  height: 100vh;
+
+  > h1 {
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 45px;
+  }
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+
+    .left-box {
+      background-image: url("../../images/redBcg.png");
+      width: 650px;
+      height: 500px;
+      padding: 20px 50px;
+      z-index: 1;
+      color: white;
+      text-align: center;
+
+      .left {
+        .logo {
+          width: 80px;
+        }
+
+        h1 {
+          padding: 0 10px;
+          font-size: 28px;
+        }
+
+        .left-img {
+          width: 400px;
+          margin-top: 30px;
+        }
+      }
+    }
+
+    .right-box {
+      background-color: rgb(213, 197, 197);
+      background-attachment: fixed;
+      background-size: cover;
+      width: 650px;
+      height: 500px;
+      padding: 50px;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 1;
+      position: relative;
+
+      .right {
+        h2 {
+          text-align: center;
+          padding: 30px 0;
+          text-transform: capitalize;
+          font-size: 28px;
+        }
+
+        .error-field {
+          position: relative;
+          font-size: 13px;
+          width: 80%;
+          margin: 18px auto;
+          color: red;
+        }
+
+        .text-field {
+          border-bottom: 2px solid white;
+          margin: 20px;
+          position: relative;
+          font-size: 13px;
+          width: 80%;
+          margin: 18px auto;
+
+          input {
+            width: 100%;
+            padding: 0 5px;
+            height: 40px;
+            border: none;
+            background: none;
+            outline: none;
+            color: black;
+          }
+
+          span {
+            &::before {
+              content: "";
+              position: absolute;
+              top: 40px !important;
+              left: 0;
+              width: 0;
+              height: 2px;
+              transition: 0.5s;
+              border: none;
+              background: #ce0505;
+            }
+          }
+
+          label {
+            position: absolute;
+            left: 5px;
+            top: 50%;
+            color: black;
+            transform: translateY(-50%);
+            pointer-events: none;
+            transition: 0.5s;
+
+            &::before {
+              content: "";
+              position: absolute;
+              top: 40px;
+              left: 0;
+              width: 0;
+              height: 2px;
+              background: #ce0505;
+              transition: 0.5s;
+            }
+          }
+
+          input:focus ~ label,
+          input:valid ~ label {
+            top: -5px;
+            color: black;
+          }
+
+          input:focus ~ span::before,
+          input:valid ~ span::before {
+            width: 100%;
+          }
+        }
+
+        .wrap-btn {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-size: 13px;
+          margin-top: 30px;
+
+          button.sign-in {
+            width: 60%;
+            padding: 10px;
+            text-transform: capitalize;
+            background-color: #ce0505;
+            border: none;
+            color: white;
+            transition: all 1s;
+            font-weight: 700;
+            font-size: 15px;
+
+            &:hover {
+              background-color: gray;
+              cursor: pointer;
+              transition: all 0.5s;
+            }
+          }
+
+          .text-1 {
+            margin-top: 20px;
+          }
+          .text-2 {
+            text-align: center;
+
+            a {
+              color: #ce0505;
+              cursor: pointer;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+
+      .hashtag {
+        position: absolute;
+        right: 15px;
+        bottom: 15px;
+        font-size: 12px;
+      }
+    }
+  }
+
+  .footer {
+    background-image: url("../../images/grayBcg.png");
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    font-size: 24px;
+
+    > div {
+      text-align: center;
+      color: white;
+      padding: 10px 0;
+    }
+
+    .wrapper-logo {
+      padding: 10px;
+      display: flex;
+
+      display: flex;
+      justify-content: space-between;
+
+      img {
+        border-radius: 5px;
+        width: 80px;
+      }
+    }
+  }
+}

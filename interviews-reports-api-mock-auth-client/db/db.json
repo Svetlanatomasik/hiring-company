@@ -1,0 +1,326 @@
+{
+  "companies": [
+    {
+      "id": 73143881,
+      "name": "Google",
+      "email": "office@google.com"
+    },
+    {
+      "id": 8458231,
+      "name": "Facebook",
+      "email": "office@facebook.com"
+    },
+    {
+      "id": 10149693,
+      "name": "Microsoft",
+      "email": "office@outlook.com"
+    },
+    {
+      "id": 74578008,
+      "name": "Tesla",
+      "email": "office@tesla.com"
+    },
+    {
+      "id": 75291264,
+      "name": "Alphabet",
+      "email": "office@alphabet.com"
+    }
+  ],
+  "candidates": [
+    {
+      "id": 56479186,
+      "name": "Declan Schaden",
+      "birthday": "Sun Jan 31 2021 19:56:57 GMT+0100 (Central European Standard Time)",
+      "email": "Emilia.Veum@hotmail.com",
+      "education": "Specialist"
+    },
+    {
+      "id": 54493806,
+      "name": "Tiffany Lynch",
+      "birthday": "Fri Mar 19 2021 23:14:47 GMT+0100 (Central European Standard Time)",
+      "email": "Rosalyn.Marquardt98@hotmail.com",
+      "education": "Director",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/albertaugustin/128.jpg"
+    },
+    {
+      "id": 84705028,
+      "name": "Cade Hammes",
+      "birthday": "Mon May 03 2021 23:06:48 GMT+0200 (Central European Summer Time)",
+      "email": "Stefanie.Reilly12@hotmail.com",
+      "education": "Agent",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/osmanince/128.jpg"
+    },
+    {
+      "id": 38097373,
+      "name": "Raul Donnelly",
+      "birthday": "Fri Nov 20 2020 11:46:47 GMT+0100 (Central European Standard Time)",
+      "email": "Oscar.Schimmel@yahoo.com",
+      "education": "Assistant",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/AM_Kn2/128.jpg"
+    },
+    {
+      "id": 57835921,
+      "name": "Aisha Dare",
+      "birthday": "Fri Feb 19 2021 14:12:48 GMT+0100 (Central European Standard Time)",
+      "email": "Loma.Bayer57@yahoo.com",
+      "education": "Representative"
+    },
+    {
+      "id": 84852310,
+      "name": "Rosalyn Batz DDS",
+      "birthday": "Tue Aug 10 2021 07:58:05 GMT+0200 (Central European Summer Time)",
+      "email": "Frederik_DAmore@gmail.com",
+      "education": "Technician"
+    },
+    {
+      "id": 84815318,
+      "name": "John May",
+      "birthday": "Tue Aug 11 2000 07:08:05 GMT+0200 (Central European Summer Time)",
+      "email": "john.may@gmail.com",
+      "education": "Technician"
+    }
+  ],
+  "reports": [
+    {
+      "id": 59762866,
+      "candidateId": 84852310,
+      "candidateName": "Rosalyn Batz DDS",
+      "companyId": 73143881,
+      "companyName": "Google",
+      "interviewDate": "Sat Aug 28 2021 13:26:56 GMT+0200 (Central European Summer Time)",
+      "phase": "sequi",
+      "status": "laborum",
+      "note": "Iure voluptas eum eum dolor. Sed consequuntur temporibus odit iure animi. Totam est quae aut amet harum officia nam. Itaque dolores quo nihil praesentium dolorum reiciendis exercitationem."
+    },
+    {
+      "id": 16583844,
+      "candidateId": 56479186,
+      "candidateName": "Declan Schaden",
+      "companyId": 8458231,
+      "companyName": "Facebook",
+      "interviewDate": "Sun Aug 29 2021 07:53:06 GMT+0200 (Central European Summer Time)",
+      "phase": "omnis",
+      "status": "non",
+      "note": "Eveniet rerum magnam accusantium veniam eligendi recusandae et. Molestiae voluptatum enim neque quia. Dolores aperiam quia consequatur ut similique. Natus accusamus qui qui cum. Vero et consequatur provident molestiae dolores. Itaque nesciunt sint tenetur sed rerum aut est consequatur aliquid."
+    },
+    {
+      "id": 31297837,
+      "candidateId": 54493806,
+      "candidateName": "Tiffany Lynch",
+      "companyId": 8458231,
+      "companyName": "Facebook",
+      "interviewDate": "Sun Aug 29 2021 07:15:32 GMT+0200 (Central European Summer Time)",
+      "phase": "dolorum",
+      "status": "et",
+      "note": "Ipsa tempore alias. Iste tenetur est dolor aliquid exercitationem dolor placeat ipsum sequi. Repellendus fugit libero."
+    },
+    {
+      "id": 53162279,
+      "candidateId": 84705028,
+      "candidateName": "Cade Hammes",
+      "companyId": 8458231,
+      "companyName": "Facebook",
+      "interviewDate": "Sat Aug 28 2021 18:50:44 GMT+0200 (Central European Summer Time)",
+      "phase": "non",
+      "status": "reprehenderit",
+      "note": "Ullam deleniti voluptas voluptatem vel hic recusandae quis. Neque odit architecto. Dolore maiores aut sunt ducimus rerum voluptates et aliquam eius. In minus maiores eius beatae ab iure consectetur nihil est."
+    },
+    {
+      "id": 80017320,
+      "candidateId": 57835921,
+      "candidateName": "Aisha Dare",
+      "companyId": 8458231,
+      "companyName": "Facebook",
+      "interviewDate": "Sun Aug 29 2021 03:57:58 GMT+0200 (Central European Summer Time)",
+      "phase": "dolores",
+      "status": "ut",
+      "note": "Et perspiciatis qui ea. Nihil eum neque ut est quam amet unde cum accusamus. Non aliquid quia sit voluptatem. Fugiat cumque nemo. Eum facere natus ullam sint quisquam."
+    },
+    {
+      "id": 58259803,
+      "candidateId": 56479186,
+      "candidateName": "Declan Schaden",
+      "companyId": 10149693,
+      "companyName": "Microsoft",
+      "interviewDate": "Sat Aug 28 2021 12:46:14 GMT+0200 (Central European Summer Time)",
+      "phase": "ipsum",
+      "status": "neque",
+      "note": "Ut quae animi et consequatur magni. Iure molestias beatae. Quo quia et dolorem eaque quaerat non."
+    },
+    {
+      "id": 13298263,
+      "candidateId": 54493806,
+      "candidateName": "Tiffany Lynch",
+      "companyId": 10149693,
+      "companyName": "Microsoft",
+      "interviewDate": "Sun Aug 29 2021 00:45:19 GMT+0200 (Central European Summer Time)",
+      "phase": "et",
+      "status": "facilis",
+      "note": "Perferendis at quaerat vitae. Voluptates aut atque blanditiis vero voluptas. Consequatur et magnam laboriosam consequatur rem blanditiis officiis et. Recusandae non sequi a asperiores minus. Est nemo est sapiente libero odio voluptas inventore totam omnis."
+    },
+    {
+      "id": 79917486,
+      "candidateId": 84705028,
+      "candidateName": "Cade Hammes",
+      "companyId": 10149693,
+      "companyName": "Microsoft",
+      "interviewDate": "Sat Aug 28 2021 11:20:44 GMT+0200 (Central European Summer Time)",
+      "phase": "quas",
+      "status": "perspiciatis",
+      "note": "Nam alias saepe. Tempora magni assumenda corrupti eos ex. Et recusandae et sed architecto. Repellat blanditiis deleniti commodi aliquid necessitatibus cum sint."
+    },
+    {
+      "id": 70314028,
+      "candidateId": 84852310,
+      "candidateName": "Rosalyn Batz DDS",
+      "companyId": 10149693,
+      "companyName": "Microsoft",
+      "interviewDate": "Sat Aug 28 2021 22:18:39 GMT+0200 (Central European Summer Time)",
+      "phase": "occaecati",
+      "status": "alias",
+      "note": "Et cum aut eum eos ut vel in non. Vel accusantium quia harum voluptatem quia iure totam voluptatem. Sequi exercitationem est unde aut unde nisi sed. Excepturi id unde beatae est laborum consequatur fuga."
+    },
+    {
+      "id": 73533166,
+      "candidateId": 56479186,
+      "candidateName": "Declan Schaden",
+      "companyId": 74578008,
+      "companyName": "Tesla",
+      "interviewDate": "Sat Aug 28 2021 16:34:09 GMT+0200 (Central European Summer Time)",
+      "phase": "numquam",
+      "status": "reprehenderit",
+      "note": "Earum et ut. Doloribus et officiis totam qui quia omnis. Voluptatum saepe fugit quia nihil sed. Dolor ab et impedit. Omnis sequi distinctio provident cupiditate beatae est. Excepturi qui quibusdam rerum assumenda autem."
+    },
+    {
+      "id": 16486267,
+      "candidateId": 54493806,
+      "candidateName": "Tiffany Lynch",
+      "companyId": 74578008,
+      "companyName": "Tesla",
+      "interviewDate": "Sat Aug 28 2021 16:59:54 GMT+0200 (Central European Summer Time)",
+      "phase": "laborum",
+      "status": "laborum",
+      "note": "Autem quod magnam commodi reiciendis natus harum. Non ipsa nostrum quas tempora voluptas fugit ab eveniet. Dolores nostrum id aut cumque iure. Omnis quos quia sit adipisci porro nobis accusamus. Tempora quas quia nihil natus quod. Cum in repudiandae ea numquam non maxime debitis libero ea."
+    },
+    {
+      "id": 19288593,
+      "candidateId": 84705028,
+      "candidateName": "Cade Hammes",
+      "companyId": 74578008,
+      "companyName": "Tesla",
+      "interviewDate": "Sun Aug 29 2021 05:13:18 GMT+0200 (Central European Summer Time)",
+      "phase": "mollitia",
+      "status": "sit",
+      "note": "Distinctio exercitationem magnam voluptatibus. Beatae expedita porro deleniti quia temporibus eos odio. Facere ut labore. Doloribus sint ut alias voluptas doloremque corporis incidunt."
+    },
+    {
+      "id": 9667556,
+      "candidateId": 57835921,
+      "candidateName": "Aisha Dare",
+      "companyId": 74578008,
+      "companyName": "Tesla",
+      "interviewDate": "Sat Aug 28 2021 13:20:42 GMT+0200 (Central European Summer Time)",
+      "phase": "rerum",
+      "status": "dolore",
+      "note": "Nisi doloribus distinctio laborum perferendis ipsam sint est sunt. Ut fugiat architecto tempore et et nobis iste nisi deserunt. Est non est. Cumque necessitatibus optio corrupti."
+    },
+    {
+      "id": 82925784,
+      "candidateId": 84815318,
+      "candidateName": "John May",
+      "companyId": 74578008,
+      "companyName": "Tesla",
+      "interviewDate": "Sat Aug 28 2021 22:55:21 GMT+0200 (Central European Summer Time)",
+      "phase": "mollitia",
+      "status": "quibusdam",
+      "note": "A excepturi tenetur et. Necessitatibus aut debitis corrupti quod. Dignissimos dolores dolores ea et repellendus molestiae voluptatem fuga."
+    },
+    {
+      "id": 56824836,
+      "candidateId": 56479186,
+      "candidateName": "Declan Schaden",
+      "companyId": 75291264,
+      "companyName": "Alphabet",
+      "interviewDate": "Sat Aug 28 2021 11:36:05 GMT+0200 (Central European Summer Time)",
+      "phase": "nam",
+      "status": "voluptate",
+      "note": "Accusamus impedit quia harum amet. Voluptatem voluptate blanditiis quia. Praesentium quis ad et omnis illum assumenda ut."
+    },
+    {
+      "id": 6253985,
+      "candidateId": 54493806,
+      "candidateName": "Tiffany Lynch",
+      "companyId": 75291264,
+      "companyName": "Alphabet",
+      "interviewDate": "Sat Aug 28 2021 15:02:48 GMT+0200 (Central European Summer Time)",
+      "phase": "aspernatur",
+      "status": "vel",
+      "note": "Minus consequatur dicta voluptas et occaecati tempora qui. Assumenda perferendis ut perspiciatis maiores qui laboriosam inventore sequi. Placeat deleniti non vel."
+    },
+    {
+      "id": 91627251,
+      "candidateId": 84705028,
+      "candidateName": "Cade Hammes",
+      "companyId": 75291264,
+      "companyName": "Alphabet",
+      "interviewDate": "Sat Aug 28 2021 22:06:14 GMT+0200 (Central European Summer Time)",
+      "phase": "est",
+      "status": "est",
+      "note": "Magnam ut corrupti et fugiat. Doloremque nihil qui velit eligendi in. Mollitia ut voluptas quod aut et quia qui tenetur est. Tempore eos eum qui iure quia repellendus harum dolorem qui. Laboriosam optio alias et qui quos ipsa."
+    },
+    {
+      "id": 50196908,
+      "candidateId": 38097373,
+      "candidateName": "Raul Donnelly",
+      "companyId": 75291264,
+      "companyName": "Alphabet",
+      "interviewDate": "Sun Aug 29 2021 07:25:31 GMT+0200 (Central European Summer Time)",
+      "phase": "veniam",
+      "status": "accusamus",
+      "note": "Enim pariatur quis ut cumque. Officia voluptatem mollitia doloribus. Ut officiis facere. Sint repudiandae ducimus saepe illo incidunt."
+    },
+    {
+      "id": 11603815,
+      "candidateId": 57835921,
+      "candidateName": "Aisha Dare",
+      "companyId": 75291264,
+      "companyName": "Alphabet",
+      "interviewDate": "Sat Aug 28 2021 18:36:11 GMT+0200 (Central European Summer Time)",
+      "phase": "necessitatibus",
+      "status": "illum",
+      "note": "Libero dolorem atque consequatur sed. Ex temporibus qui. Dolorum animi veniam consequatur omnis et non aspernatur ullam. Quae iure doloribus fugiat."
+    },
+    {
+      "id": 80561530,
+      "candidateId": 84852310,
+      "candidateName": "Rosalyn Batz DDS",
+      "companyId": 75291264,
+      "companyName": "Alphabet",
+      "interviewDate": "Sun Aug 29 2021 03:18:01 GMT+0200 (Central European Summer Time)",
+      "phase": "aspernatur",
+      "status": "dolores",
+      "note": "Modi ipsum et id nam labore excepturi non sapiente eveniet. Accusantium officia neque blanditiis vitae corrupti minus qui dolor. Neque reiciendis mollitia assumenda occaecati aut in voluptatem quod sapiente. Aut maxime rem doloribus aperiam aut et. Qui quidem non voluptatibus dolor incidunt sequi voluptates aliquid iure."
+    },
+    {
+      "id": 68750887,
+      "candidateId": 84815318,
+      "candidateName": "John May",
+      "companyId": 75291264,
+      "companyName": "Alphabet",
+      "interviewDate": "Sun Aug 29 2021 01:30:36 GMT+0200 (Central European Summer Time)",
+      "phase": "sint",
+      "status": "facilis",
+      "note": "Iure ea est molestias. Et iste fuga. Delectus corrupti natus impedit architecto temporibus eos quis."
+    }
+  ],
+  "users": [
+    {
+      "email": "dev@dev.com",
+      "password": "$2a$10$Ht9ATCnB3LhyEpPg.c/GOuLzkMYD2WRPZ3ZtFVP.uVCrx.nW/rwVq",
+      "name": "Developer",
+      "surname": "Developeric",
+      "age": 404,
+      "id": 1
+    }
+  ]
+}

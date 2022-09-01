@@ -1,0 +1,95 @@
+#fill-report {
+  width: 60%;
+  margin: 0 auto;
+  h2 {
+    color: white;
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .flex-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+  .form {
+    background-color: white;
+    padding: 20px 50px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: #ce0505 60px solid;
+
+    .margin-right {
+      display: flex;
+      gap: 8px;
+      .interviewDate {
+        padding: 5px;
+        margin-left: 5px;
+        border-radius: 5px;
+        background-color: #ce0505;
+        color: white;
+        border: none;
+        outline: none;
+      }
+    }
+
+    .fill-label {
+      display: flex;
+      margin: 20px 0;
+
+      #phase {
+        margin-left: 70px;
+        border-radius: 5px;
+        background-color: #ce0505;
+        color: white;
+        border: none;
+        outline: none;
+      }
+
+      #status {
+        margin-left: 68px;
+        border-radius: 5px;
+        background-color: #ce0505;
+        color: white;
+        border: none;
+        outline: none;
+      }
+    }
+  }
+
+  .btn-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    button {
+      padding: 10px 20px;
+      background-color: #ce0505;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      transition: all 0.3s;
+      cursor: pointer;
+      &:hover {
+        background-color: gray;
+      }
+    }
+  }
+
+  .companies {
+    list-style: none;
+    color: white;
+  }
+  textarea {
+    display: block;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 20px;
+    outline: none;
+    word-break: break-all;
+  }
+}

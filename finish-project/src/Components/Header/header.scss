@@ -1,0 +1,40 @@
+#header {
+  background-image: url("../../images/redBcg.png");
+  color: white;
+  padding: 8px 15px;
+  padding-right: 25px;
+  display: flex;
+  justify-content: space-between;
+
+  .ourLogo {
+    width: 50px;
+  }
+
+  .navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    font-size: 18px;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    a:not(:last-child) {
+      border-right: 3px solid white;
+      padding-right: 18px;
+    }
+  }
+
+  button {
+    font-size: 16px;
+    padding: 8px 15px;
+    cursor: pointer;
+    background-color: #101010;
+    border: none;
+    border-radius: 8px;
+    color: white;
+  }
+}

@@ -1,0 +1,133 @@
+$border-radius: 5px;
+
+#select-company {
+  display: flex;
+  flex-direction: column;
+  padding: 0 200px;
+  align-items: center;
+  justify-content: center;
+
+  .flex-wrap {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+    input {
+      padding: 10px;
+      border-radius: $border-radius;
+      border: none;
+      min-width: 500px;
+      outline: none;
+      border-radius: 8px;
+    }
+  }
+  .step {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+  }
+  .company-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    .company-card {
+      background-color: white;
+      height: 350px;
+      width: 250px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.4s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 14px;
+
+      .red {
+        background-color: #ce0505;
+        width: 100%;
+        height: 30%;
+        border-radius: 8px 8px 0 0;
+        display: flex;
+        align-items: center;
+        position: relative;
+      }
+
+      img {
+        width: 50%;
+        position: absolute;
+        bottom: -55px;
+        border: 1px solid black;
+        border-radius: 50%;
+        left: 25%;
+        -webkit-box-shadow: 0px 0px 10px 1px #000000;
+        box-shadow: 0px 0px 10px 1px #000000;
+      }
+
+      .company-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 80px;
+
+        h2 {
+          padding: 10px;
+          text-align: center;
+        }
+
+        p {
+          margin-bottom: 10px;
+        }
+      }
+      &.active {
+        border: 3px solid #ce0505;
+        -webkit-box-shadow: 0px 0px 11px 4px #ffffff;
+        box-shadow: 0px 0px 11px 4px #ffffff;
+        transform: scaleY(1.05);
+      }
+    }
+  }
+
+  .btn-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+    .prev {
+      padding: 10px 20px;
+      border-radius: $border-radius;
+      background-color: #ce0505;
+      border: none;
+      color: white;
+      transition: all 0.3s;
+      cursor: pointer;
+      &:hover {
+        background-color: gray;
+      }
+    }
+
+    .next {
+      padding: 10px 20px;
+      border-radius: $border-radius;
+      background-color: white;
+      border: none;
+      color: black;
+      transition: all 0.3s;
+      &.active {
+        background-color: #ce0505;
+        color: white;
+        cursor: pointer;
+        &:hover {
+          background-color: gray;
+        }
+      }
+    }
+  }
+}
